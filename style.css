@@ -1,0 +1,427 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 400;
+  color: #e9e9f1;
+}
+
+.container,
+header {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.6rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-heading {
+  font-size: 2.6rem;
+  font-family: "Gilda Display", serif;
+  color: #aa8453;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.logo-subheading {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.navbar {
+  display: flex;
+  gap: 4.8rem;
+  font-size: 1.5rem;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+}
+
+.navbar a:link,
+.navbar a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:first-child:link,
+.navbar a:first-child {
+  color: #aa8453;
+  text-decoration: none;
+}
+
+.home {
+  background-image: url(img/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% 25%;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  /* margin-bottom: 12rem; */
+}
+
+.hero-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 10rem;
+}
+
+.star-ratings {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.star--ratings {
+  color: #f3d22e;
+}
+
+.hero-subheading {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.hero-heading {
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  letter-spacing: 1rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.hero-btn {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid #ffffffaa;
+  padding: 1.6rem 4rem;
+  margin-bottom: 12rem;
+}
+
+.booking-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+table,
+tr,
+td {
+  border: 1px solid #aa8453;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 9.6rem;
+  font-size: 1.6rem;
+  background-color: #fff;
+  color: #222;
+}
+
+td {
+  padding: 2.4rem;
+}
+
+.check-in {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.check--in-icon,
+.check-in-icon {
+  color: #aa8453;
+}
+
+.check--now {
+  background-color: #aa8453;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.experience-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.8rem;
+  margin-top: 12rem;
+  padding-bottom: 12rem;
+  /* padding: 12rem 0 12rem 0; */
+}
+
+.experience-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  color: #666666;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+}
+
+.experience-subheading {
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.experience-heading {
+  font-size: 4.6rem;
+  color: #222222;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.experience-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.experience-phone {
+  display: flex;
+  align-items: center;
+
+  gap: 0.7rem;
+}
+
+.phone-details .phone-numbers {
+  font-size: 2.7rem;
+  color: #aa8453;
+}
+
+.phone-numbers {
+  margin: 0;
+}
+
+.phone-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.phone-text {
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.experience-img-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.experience-img-box img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.experience-img-box img:first-child {
+  align-self: self-end;
+}
+
+.experience-img-box img:last-child {
+  align-self: self-start;
+}
+
+.room-bookings-section {
+  background-color: #f8f5f0;
+  padding: 12rem 0;
+}
+
+.subheading {
+  color: #666666;
+}
+
+.room-bookings {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+}
+
+.top-grid {
+  width: 100%;
+  grid-column: auto/ span 2;
+  position: relative;
+}
+
+.bottom-grid {
+  grid-column: auto / span 3;
+  position: relative;
+}
+
+.fist-room img {
+  width: 100%;
+}
+
+.room-detail-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: absolute;
+  left: 3rem;
+  bottom: 4rem;
+}
+
+.room-price {
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.room-type {
+  font-size: 2.7rem;
+  font-family: "Gilda Display", serif;
+
+  text-transform: capitalize;
+  position: relative;
+}
+
+.room-type::after {
+  content: "";
+  background: #ffffff98;
+  width: 8.5rem;
+  height: 1px;
+  position: absolute;
+  bottom: -1.4rem;
+  left: 0;
+}
+
+.extra-service-section {
+  background-color: #222;
+  padding: 12rem 0 12rem 0;
+}
+
+.extra-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.8rem;
+}
+
+.extra-service-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.extra-room-services-box img {
+  width: 100%;
+}
+
+.extra-subheading {
+  font-weight: 400;
+  color: #aa8453;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.extra-heading {
+  font-size: 4.6rem;
+  color: #fff;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.experience--text {
+  font-size: 1.5rem;
+  color: #adadad;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.extra-phone {
+  color: #adadad;
+}
+
+.extra-room-services-box {
+  background-color: #f8f5f0;
+  color: #222;
+}
+
+.exta--list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.extra-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.extra-list-item img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.extra-icon {
+  width: 4.4rem;
+  height: 49.4rem;
+}
+
+.list-details {
+  color: #666666;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 4.8rem;
+}
+
+.list-details h2 {
+  font-family: "Gilda Display", serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #222;
+}
+
+.extra-price span {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #aa8453;
+  letter-spacing: 2px;
+}
+
+.extra-list {
+}
