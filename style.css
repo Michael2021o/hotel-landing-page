@@ -581,3 +581,68 @@ td {
   background-color: #aa8453;
   border: 1px solid #aa8453;
 }
+
+.discovery-section {
+  padding: 9.6rem 0;
+}
+
+.discovery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-card img {
+  width: 100%;
+  display: block;
+}
+
+.text-card {
+  background-color: #f8f5f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+  padding: 0 3rem;
+}
+
+.text-card-heading {
+  font-size: 1.5rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  color: #666;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.text-card-subheading {
+  font-size: 3.2rem;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  color: #222;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.text-card-text {
+  font-size: 1.5rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  color: #912323;
+  line-height: 1.8;
+}
+
+.text-card-btn {
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: #ab8a62;
+  padding: 1.3rem 2.2rem;
+  align-self: flex-start;
+  transition: ease-in-out 0.4s;
+}
+
+.text-card-btn:hover {
+  box-shadow: inset 17rem 0 0 0 #000;
+  cursor: pointer;
+}
