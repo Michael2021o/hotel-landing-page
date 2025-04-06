@@ -682,6 +682,7 @@ td {
 
 .blog-card {
   position: relative;
+  margin-bottom: 9.6rem;
 }
 
 .blog-card-img {
@@ -743,4 +744,130 @@ td {
 }
 .blog-date-day {
   font-size: 2.4rem;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 12rem 0;
+  position: relative;
+}
+
+.contact-text {
+  font-size: 2.4rem;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.4;
+  width: 40rem;
+}
+
+.number--card {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.number--card img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.number--card-box-text {
+  font-size: 1.5rem;
+}
+.number--card-box-number {
+  font-size: 2.7rem;
+}
+
+.call-us {
+  display: flex;
+  align-items: center;
+}
+
+.call-us img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.contact-logos-main {
+  background: #fff;
+  padding: 2rem 0;
+}
+
+.contact-logos {
+  justify-self: flex-start;
+  /* background-color: #ab8a62; */
+}
+
+.contact-logos img {
+  width: 20rem;
+  height: auto;
+}
+
+.contact-form {
+  padding: 4rem;
+  background-color: #f1eeeb;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(0%, 15%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  width: 45rem;
+}
+
+.contact-form-heading {
+  font-size: 1.5rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.contact-form-subheading {
+  font-family: "Gilda Display", serif;
+  font-size: 27px;
+  font-weight: 400;
+  color: #222;
+  text-transform: capitalize;
+}
+
+.stroke {
+  width: 100%;
+  height: 1px;
+  background-color: #ab8a623d;
+}
+
+.check-in-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.check-people {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.check-people-adults {
+  padding: 2rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+}
+
+.check-in-form-btn {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: #aa8453;
+  color: #fff;
+  padding: 3rem;
+  text-align: center;
 }
