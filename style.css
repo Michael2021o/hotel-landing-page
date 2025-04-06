@@ -871,3 +871,81 @@ td {
   padding: 3rem;
   text-align: center;
 }
+
+footer {
+  background-color: #222;
+  padding: 9.6rem 0;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+}
+
+.footer-heading {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #adadad;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+.footer-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.expolre {
+  justify-self: center;
+}
+
+.expolre ul {
+  color: #adadad;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-contact p {
+  color: #adadad;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+
+.footer-tel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-tel p {
+  font-size: 2.4rem;
+  font-family: "Gilda Display", serif;
+  color: #fff;
+}
+
+.footer-tel ion-icon {
+  font-size: 3rem;
+}
+
+.footer-contact .footer-email {
+  color: #fff;
+}
+
+.socials {
+  font-size: 2rem;
+  display: flex;
+  gap: 1.8rem;
+}
