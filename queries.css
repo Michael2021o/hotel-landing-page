@@ -1,0 +1,74 @@
+/*  Mobile and tablet CSS */
+
+@media (min-width: 320px) and (max-width: 999px) {
+}
+
+/* Laptop/desktop CSS */
+
+@media (min-width: 1000px) {
+}
+
+@media only screen and (min-width: 412px) {
+  .logo-heading {
+    font-size: 2rem;
+  }
+
+  .logo-subheading {
+    font-size: 1rem;
+  }
+  header {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .navbar {
+    gap: 1rem;
+  }
+
+  .home {
+    height: 60vh;
+  }
+
+  .hero-details {
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+
+  .hero-heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+  }
+
+  .hero-subheading {
+    font-size: 1.2rem;
+    letter-spacing: 1rem;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .hero-btn {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    padding: 1rem 3rem;
+    margin-bottom: 4rem;
+  }
+
+  table {
+    margin-bottom: 4.6rem;
+    font-size: 1.2rem;
+  }
+
+  td {
+    padding: 1rem;
+  }
+
+  .check-in {
+    gap: 0.2rem;
+    align-items: center;
+  }
+
+  .check--now {
+    text-align: center;
+  }
+}
